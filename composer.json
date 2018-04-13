@@ -1,6 +1,6 @@
 {
     "name": "youthage/laravel-3des",
-    "description": "an Des3 encode class",
+    "description": "Laravel Des3 encode",
     "license": "MIT",
     "authors": [
         {
