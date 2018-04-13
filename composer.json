@@ -1,11 +1,11 @@
 {
-    "name": "ninesongs/laraveldes3",
+    "name": "YouthAge/Laravel-3DES",
     "description": "an Des3 encode class",
     "license": "MIT",
     "authors": [
         {
-            "name": "NineSongs",
-            "email": "ninesongs52069@163.com"
+            "name": "YouthAge",
+            "email": "myouthage@gmail.com"
         }
     ],
     "minimum-stability": "dev",
