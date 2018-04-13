@@ -5,7 +5,7 @@ Laravel 3DES加密解密，和java,ios互通
 ### 安装方法 ###
 
 ```php
-composer require ninesongs/laraveldes3
+composer require YouthAge/Laravel-3DES
 ```
 
 ### 配置方法 ###
