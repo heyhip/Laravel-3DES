@@ -1,6 +1,6 @@
 ﻿# Laravel 3DES
 
-Laravel 3DES加密解密，和java,ios互通
+Laravel 3DES加密解密，和java,ios互通，使用openssl，必须有openssl扩展
 
 ### 安装方法 ###
 
