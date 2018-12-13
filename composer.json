@@ -16,5 +16,15 @@
         "psr-4": {
             "laraveldes3\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "laraveldes3\\Des3Provider"
+            ],
+            "aliases": {
+                "DES3": "laraveldes3\\Des3Facade"
+            }
+        }
     }
 }
