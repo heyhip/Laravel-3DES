@@ -10,20 +10,6 @@ composer require youthage/laravel-3des
 
 ### 配置方法 ###
 
-app.php 配置如下：
-
-providers中添加
-
-```php
-\laraveldes3\Des3Provider::class,
-```
-
-aliases中添加
-
-```php
-'DES3' => laraveldes3\Des3Facade::class,
-```
-
 .env 配置加密key和iv,如下
 
 ```php
