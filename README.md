@@ -10,7 +10,7 @@ composer require youthage/laravel-3des
 
 ### 配置方法 ###
 
-.env 配置加密key和iv,如下
+.env 配置加密key和iv,如下。也可动态使用key和iv
 
 ```php
 DES3_KEY=ABCDEFGHIJKLMNOPQRSTUVWX
@@ -37,6 +37,10 @@ class IndexController extends Controller
         // 解密
         $decrypt = DES3::decrypt($encrypt);
         echo $decrypt;
+        
+        // 动态使用
+        DES3::encrypt(111, 'ABCDEFGHIJKLMNOPQRSTUVWX', '12345678');
+        DES3::decrypt($encrypt, 'ABCDEFGHIJKLMNOPQRSTUVWX', '12345678');
     }
 }
 
