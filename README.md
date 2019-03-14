@@ -10,11 +10,22 @@ composer require youthage/laravel-3des
 
 ### 配置方法 ###
 
-.env 配置加密key和iv,如下。也可动态使用key和iv
+配置加密key和iv,如下。也可动态使用key和iv
 
 ```php
-DES3_KEY=ABCDEFGHIJKLMNOPQRSTUVWX
-DES3_IV=12345678
+config文件夹下创建baseconfig.php
+
+内容
+<?php
+
+
+return [
+
+    'DES3_KEY' => 'ABCDEFGHIJKLMNOPQRSTUVWX',
+    
+    'DES3_IV' => '12345678',
+
+];
 ```
 
 ### 使用方法 ###
